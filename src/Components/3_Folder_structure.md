@@ -1,10 +1,10 @@
-:package.json : Contains the dependency and script for running building and testing project.
+:package.json : Contains the dependency and script for running, building and testing project.
 :package-lock.json : Ensures insulation of running dependencies and we need not to really worry about it.
 :node_modules : contains all the dependencies
 :public :
     manifest.json: Is concerned wiith progressive web apps
     index.html: Only HTML file we have in our application 
-                Since we are buiding single page application but the view may dynammically change in our browser. We are not going to add any code in the body.Maybe some changes in the head tag.
+                Since we are buiding single page application but the view may dynamically change in our browser. We are not going to add any code in the body.Maybe some changes in the head tag.
                 the react control the body and for that
                 "a div tag with id root is placed"
 

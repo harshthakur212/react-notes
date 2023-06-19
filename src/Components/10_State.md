@@ -1,4 +1,4 @@
-Pops //////vs state
+Props //////vs state
 
 :props get passed to the component
 :function parameters
@@ -10,7 +10,7 @@ Pops //////vs state
 :variable declared in the function body 
 :state can be changed
 :ueState Hook - Functional components
-:this.sstate - Class component
+:this.state - Class component
 
 
 //Props and state hold info that end up in forming ui
