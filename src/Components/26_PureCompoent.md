@@ -1,3 +1,5 @@
+//Does not re-render
+
 //Works only for class component
 
 //2nd way to create class component that is by extracting pure compoenent from React

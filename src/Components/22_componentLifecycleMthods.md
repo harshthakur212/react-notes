@@ -14,4 +14,3 @@ Unmouting:When a component is being removed from the DOM
 Error Handler:When there is an error during rendering, in a 
 lifecycel method, or in the constructor of any child component
 : static getDerivedStateFromError and componentDidCatch
-

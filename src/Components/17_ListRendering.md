@@ -4,9 +4,9 @@
 
 import React from 'react'
 
-function NameList ()[
-
-    {
+function personList (){
+    const persons=[
+          {
         id:1,
         name:'Bruce',
         age:30,
@@ -23,11 +23,11 @@ function NameList ()[
         name:'Diana',
         age:28,
         skill:'Vue'
-    },
-    
-]
+    }  
+    ]
+}
 
-
+  
 //In the same file
 
     const personList = persons.map(person =>(

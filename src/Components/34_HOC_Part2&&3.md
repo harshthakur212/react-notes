@@ -13,7 +13,7 @@ const IronMan = withSuit(TonyStark)
 
 //App.js
 <div>
-    <ClickCounter name = "Vishwas/>
+    <ClickCounter name = "Vishwas"/>
     <HoverCounter/>
 </div>
 

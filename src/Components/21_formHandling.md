@@ -40,8 +40,8 @@ class Form extends Component {
         event.preventDefault()
     }
 
-    render(){
-        return(
+    render({
+        return()
             <form onSubmit = {this.handleSubmit}>
             <div>
             <label>Username</label>
@@ -61,9 +61,7 @@ class Form extends Component {
                 </select>
             </div>
                 <button type = "submit">Submit  </button>
-            </form>
-        )
-    }
+            </form>)
 }
 
 

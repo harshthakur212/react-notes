@@ -1,4 +1,4 @@
-//The reason we bind event handler in react is because the eay this keyword work in javscript
+//The reason we bind event handler in react is because the way this keyword work in javscript
 
 ///On the click of the button changing a button which is a part of the component state
 
