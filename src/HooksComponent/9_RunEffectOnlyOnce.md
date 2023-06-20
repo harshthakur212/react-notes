@@ -1,4 +1,7 @@
+//Mimic ComponentDidMount
+
 import React, {useState, useEffect} from 'react'
+
 
 function HookMouse (){
     const [x, setX] = useState(0)
@@ -13,7 +16,14 @@ function HookMouse (){
     useEffect(() => {
         console.log('useEffect called')
         window.addEventListener('mousemove', logMousePosition)
-    }, [])  //Using an empty string as a parameter to tell react that this should be render only once
+
+        return () => {
+            console.log('Component will Unmount')
+            window.removeEventListener('mousemove',logMousePositioin)
+        }
+    }, [])  
+    
+    //Using an empty string as a parameter to tell react that this should be render only once
 
     return (
         <div>

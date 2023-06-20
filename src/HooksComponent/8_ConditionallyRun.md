@@ -1,6 +1,5 @@
 //Conditionally Updating a state
 
-
 import React, {useState, useEffect} from 'react'
 
 function HookCounterOne(){
@@ -8,7 +7,7 @@ function HookCounterOne(){
     const [name, setName] = useState('')
 
     useEffect(() => {
-        document.title = `You clicked ${count} times`
+        console.log('useEffect  -  updating document title')
         document.title = `You clicked ${count} times`
     }, [count])
 
