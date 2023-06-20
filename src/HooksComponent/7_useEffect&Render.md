@@ -53,9 +53,12 @@ function HookCounterOne(){
         document.title = `You clicked ${count} times`
     })
 
+//UseEffect hook is called after every single render
+
+
     return(
         <div>
-            <button onClick={() => setCount(count) + 1 }>Click {count} times </button>
+            <button onClick={() => setCount(count + 1) }>Click {count} times </button>
         </div>
     )
 }

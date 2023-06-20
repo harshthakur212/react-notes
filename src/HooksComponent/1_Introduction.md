@@ -37,6 +37,6 @@ They allows you to use React features without having to write class.
 
 Avoid the confusion of this keyword
 
-Allow you to reuse stateful logic
+Allow you to reuse stateful logic(Can avoid advanced react patterns to a great extent which makes the code much easier to follow)
 
 Organize the logic inside a component into reusable isolated units

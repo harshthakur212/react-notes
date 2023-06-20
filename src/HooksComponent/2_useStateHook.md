@@ -60,3 +60,18 @@ function HookCounter (){
 }
 
 export default HookCounter
+
+
+import react, {useState} from 'react'
+
+function HookCount (){
+
+    const [count, setCount] = useState(0)
+
+    return (
+        <div> 
+            <Button onClick={ () => setCount(count +1 )}>Count {count}</Button>
+        </div>
+    )
+
+}

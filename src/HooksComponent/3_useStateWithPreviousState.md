@@ -18,7 +18,7 @@ function HookCounterTwo (){
             Count : {count}
             <button onClick = {() => setCount(initialCount)}>Reset</button>
             <button onClick = {() => setCount(prevCount => prevCount + 1)}>Increaement</button>
-            <button onClick = {()=> setCount(prevCount => prevCount + 1)}>Decreament</button>
+            <button onClick = {()=> setCount(prevCount => prevCount - 1)}>Decreament</button>
             <button onClick = {increamentFive}>Increament 5</button>
         </div>
     )
