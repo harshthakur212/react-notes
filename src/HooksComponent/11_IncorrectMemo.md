@@ -1,5 +1,10 @@
 //Ignoring Common Mistakes
 
+//Using useState for replicating this.state method from class based components
+
+//Using useEffect for replicating componentDidMount in Class based components
+
+//Creating a counter which will automatically increament after every second
 
 
 
@@ -9,7 +14,7 @@ function IntervalHookCounter(){
     const [count, setCount] = useState(0)
 
     const tick = () => {
-        setCount(count + 1)
+        setCount(prevCount => prevCount + 1)
     }
 
     useEffect(() => {
