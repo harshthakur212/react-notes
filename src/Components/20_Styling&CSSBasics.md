@@ -11,7 +11,7 @@
 
 import React from 'react'
 import './myStles.css'
-
+<></>
 function StyleSheet (props){
     let className = props.primary ? 'primary' : ''
     return ({
@@ -50,7 +50,7 @@ const heading ={
 function Inline (){
     return (
         <div>
-            <h1 style= {heading}>Inline</h1>
+            <h1 style= {{width:"22px";}}>Inline</h1>
         </div>
     )
 }
